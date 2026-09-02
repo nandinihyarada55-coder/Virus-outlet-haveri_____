@@ -1,0 +1,14 @@
+VIRUS OUTLET WEBSITE
+
+Files:
+- index.html
+- images/virus-outlet-banner.png
+
+GitHub Pages:
+1. Create/open your GitHub repository.
+2. Upload index.html and the images folder.
+3. Keep the folder structure exactly as it is.
+4. Enable Settings > Pages > Deploy from branch > main > / (root).
+5. Wait a minute or two for the site to publish.
+
+The banner image is already included locally, so it will not depend on an external image URL.

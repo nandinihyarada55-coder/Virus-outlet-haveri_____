@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VIRUS OUTLET - premium fashion and streetwear in Haveri, Karnataka.">
+  <title>VIRUS OUTLET — Haveri</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;background:#0b0a09;color:#eee7df;line-height:1.6}
+    nav{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:18px 7%;background:rgba(11,10,9,.94);border-bottom:1px solid #292522;backdrop-filter:blur(12px)}
+    .logo{font-size:22px;font-weight:900;letter-spacing:3px;color:#c7b09d}
+    nav a{color:#ddd3ca;text-decoration:none;margin-left:24px;font-size:14px}
+    .hero{padding:55px 7% 30px;min-height:88vh;display:flex;flex-direction:column;justify-content:center}
+    .hero-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:45px;align-items:center}
+    .eyebrow{letter-spacing:4px;color:#a996e8;font-size:13px;font-weight:bold;margin-bottom:18px}
+    h1{font-size:clamp(55px,9vw,125px);line-height:.84;letter-spacing:-5px;text-transform:uppercase}
+    h1 span{font-family:Georgia,serif;font-style:italic;font-weight:400;color:#c7b09d}
+    .lead{font-size:18px;color:#aaa19a;max-width:540px;margin:30px 0}
+    .buttons{display:flex;gap:14px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:15px 23px;border-radius:30px;text-decoration:none;font-weight:bold;border:1px solid #8069b6;color:#eee7df}
+    .btn.primary{background:#c7b09d;color:#171411;border-color:#c7b09d}
+    .hero-img{width:100%;border-radius:20px;display:block;box-shadow:0 25px 70px rgba(0,0,0,.5)}
+    section{padding:90px 7%;border-top:1px solid #24211f}
+    .section-title{font-size:42px;margin-bottom:14px}
+    .muted{color:#aaa19a}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:35px}
+    .card{padding:30px 22px;background:#13110f;border:1px solid #292522;border-radius:16px}
+    .card h3{margin-bottom:8px;color:#c7b09d}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+    .quote{font-family:Georgia,serif;font-size:48px;line-height:1.05;color:#c7b09d}
+    .store{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+    .box{background:#13110f;border:1px solid #292522;border-radius:18px;padding:35px}
+    .box p{margin:10px 0;color:#b5ada6}
+    footer{padding:35px 7%;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:#8f8882;border-top:1px solid #292522}
+    @media(max-width:850px){
+      nav{padding:15px 5%} nav div:last-child{display:none}
+      .hero{padding:35px 5%}.hero-grid,.about,.store{grid-template-columns:1fr}
+      .hero-img{order:-1}.cards{grid-template-columns:1fr 1fr}
+      section{padding:65px 5%} h1{letter-spacing:-3px}
+    }
+    @media(max-width:520px){.cards{grid-template-columns:1fr}.quote{font-size:36px}}
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">VIRUS OUTLET</div>
+    <div>
+      <a href="#collections">Collections</a>
+      <a href="#about">About</a>
+      <a href="#store">Store</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">HAVERI • KARNATAKA</div>
+          <h1>WEAR<br><span>YOUR</span><br>ATTITUDE.</h1>
+          <p class="lead">Fresh fits. Sharp classics. Statement pieces. Discover your next look at VIRUS OUTLET.</p>
+          <div class="buttons">
+            <a class="btn primary" href="#collections">SHOP THE LOOK ↓</a>
+            <a class="btn" href="#store">FIND THE STORE →</a>
+          </div>
+        </div>
+        <img class="hero-img" src="images/virus-outlet-banner.png" alt="VIRUS OUTLET fashion store promotional banner">
+      </div>
+    </section>
+
+    <section id="collections">
+      <h2 class="section-title">THE COLLECTION</h2>
+      <p class="muted">Styles made for every attitude.</p>
+      <div class="cards">
+        <div class="card"><h3>Men's Fashion</h3><p>Modern everyday fits and statement styles.</p></div>
+        <div class="card"><h3>Streetwear</h3><p>Bold pieces for a confident street look.</p></div>
+        <div class="card"><h3>Casual Wear</h3><p>Sharp, comfortable and easy to style.</p></div>
+        <div class="card"><h3>Trending Styles</h3><p>Fresh looks for your next outfit.</p></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about">
+        <div>
+          <div class="eyebrow">ABOUT VIRUS</div>
+          <h2 class="section-title">STYLE THAT SPEAKS BEFORE YOU DO.</h2>
+          <p class="muted">VIRUS OUTLET is a fashion destination in Haveri for people who want modern clothing, confident style and a look that stands out.</p>
+        </div>
+        <div class="quote">“Your outfit is your first statement.”</div>
+      </div>
+    </section>
+
+    <section id="store">
+      <div class="store">
+        <div class="box">
+          <div class="eyebrow">VISIT US</div>
+          <h2 class="section-title">VIRUS OUTLET</h2>
+          <p>13th Cross Road, Basaveshwar Nagar,<br>Haveri, Karnataka 581110</p>
+          <div class="buttons" style="margin-top:22px">
+            <a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=VIRUS%20OUTLET%20Haveri" target="_blank">GET DIRECTIONS ↗</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="eyebrow">CONNECT</div>
+          <h2 class="section-title">LET'S TALK.</h2>
+          <p>Call or message VIRUS OUTLET for store information and the latest collections.</p>
+          <p><strong>WhatsApp / Phone:</strong> Add your store number here</p>
+          <p class="muted">Replace the placeholder number with the business's real number before publishing.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© 2026 VIRUS OUTLET</div>
+    <div>Haveri, Karnataka • Wear Your Attitude.</div>
+  </footer>
+</body>
+</html>
