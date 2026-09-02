@@ -2,7 +2,7 @@ VIRUS OUTLET WEBSITE
 
 Files:
 - index.html
-- images/virus-outlet-banner.png
+- images/virus-outlet png
 
 GitHub Pages:
 1. Create/open your GitHub repository.
